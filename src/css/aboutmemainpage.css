@@ -1,0 +1,57 @@
+.about-me-main-page {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  gap: 30px;
+}
+
+.about-me-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-me-h4 {
+  font-size: 3rem;
+  color: #5f5f5f;
+  font-weight: 500;
+}
+
+.about-me-p-desc {
+  font-weight: 300;
+  line-height: 2;
+  font-size: 1.4rem;
+}
+
+/* 930 pixels */
+@media (max-width: 59em) {
+  .about-me-main-page {
+    width: 90%;
+    padding-top: 2%;
+  }
+}
+
+/* 866 pixels */
+@media (max-width: 55em) {
+  .about-me-main-page {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .ako-pic {
+    width: 85%;
+  }
+}
+
+/* 474 pixels */
+@media (max-width: 31em) {
+  .ako-pic {
+    width: 80%;
+    display: flex;
+    margin: auto;
+  }
+}

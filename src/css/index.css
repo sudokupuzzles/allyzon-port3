@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.bottom-component {
+  display: block;
+}
+
+.bottom-component-none {
+  display: none;
+}
+
+/* when using the link and react router */
+.link {
+  text-decoration: none;
+  color: inherit; /* Or specify a custom color */
+}

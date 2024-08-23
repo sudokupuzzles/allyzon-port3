@@ -1,0 +1,177 @@
+.joinedEvents-container {
+  max-width: 1100px;
+  padding-top: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hackathon-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.hackathon-title-box {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.hackathon-title {
+  font-size: 35px;
+  font-weight: 600;
+  background: linear-gradient(to right, #9ad2a9, #f9bbbc); /* gradient colors */
+  background-clip: text;
+  color: transparent;
+}
+
+.hackathon-title-right {
+  font-size: 35px;
+  font-weight: 600;
+  background: linear-gradient(to right, #9ad2a9, #f9bbbc); /* gradient colors */
+  background-clip: text;
+  color: transparent;
+  text-align: right;
+}
+
+.hackathon-laman {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.attended {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  z-index: 0;
+}
+
+.attended::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%; /* Ensure the background covers the text */
+  height: 100%; /* Ensure the background covers the text */
+  background-color: #f9bbbc; /* Background color */
+  transform: translate(-50%, -50%) rotate(1deg); /* Rotate and center the background */
+  z-index: -1; /* Ensure the background is behind the text */
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hackathons {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  z-index: 0;
+}
+
+.hackathons::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%; /* Ensure the background covers the text */
+  height: 105%; /* Ensure the background covers the text */
+  background-color: #9ad2a9; /* Background color */
+  transform: translate(-50%, -50%) rotate(-2.5deg); /* Rotate and center the background */
+  z-index: -1; /* Ensure the background is behind the text */
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hackathon-description {
+  font-weight: 300;
+  line-height: 2;
+  font-size: 14px;
+}
+
+/* 1130 pixels */
+@media (max-width: 72em) {
+  .joinedEvents-container {
+    width: 90%;
+  }
+  .hackathon-laman {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+
+/* 1000 pixels */
+@media (max-width: 65em) {
+  .hackathon-image {
+    width: 45%;
+  }
+}
+
+/* 880 pixels */
+@media (max-width: 55em) {
+  .hackathon-image {
+    width: 50%;
+  }
+  .hackathon-description {
+    font-weight: 300;
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+}
+
+/* 810 pixels */
+@media (max-width: 51em) {
+  .hackathon-laman {
+    display: flex;
+    flex-direction: column;
+  }
+  .hackathon-description {
+    font-weight: 300;
+    line-height: 2;
+    font-size: 1.3rem;
+  }
+  .hackathon-image {
+    width: 60%;
+    align-self: center;
+  }
+  .hackathon-title-right,
+  .hackathon-title {
+    align-self: center;
+    text-align: center;
+  }
+}
+
+/* 610 pixels */
+@media (max-width: 39em) {
+  .hackathon-title-right,
+  .hackathon-title {
+    align-self: center;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .hackathon-image {
+    width: 80%;
+    align-self: center;
+  }
+}
+
+/* 480 pixels */
+@media (max-width: 30em) {
+  .hackathon-title-box {
+    font-size: 3rem;
+  }
+  .hackathon-image {
+    width: 100%;
+    align-self: center;
+  }
+}
