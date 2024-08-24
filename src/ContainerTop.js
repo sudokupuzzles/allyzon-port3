@@ -1,4 +1,5 @@
 import EmailTop from "./EmailTop";
+import { Link } from "react-router-dom";
 
 function ContainerTop() {
   return (
@@ -26,14 +27,14 @@ function ContainerTop() {
         <div className="third-row">
           <div class="third-row-1">this is my portfolio</div>
           <div class="third-row-2">
-            <div class="more-about-me-btn">
+            <Link class="more-about-me-btn" to="/aboutmemainpage">
               <img
                 src="./imgs/more-about-me-icon.svg"
                 alt="icon"
                 className="arrow-to-right"
               />
               More About Me
-            </div>
+            </Link>
           </div>
         </div>
       </div>
