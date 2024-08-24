@@ -17,14 +17,16 @@ export default function AboutMeMainPage() {
         </div>
         <div className="about-me-description">
           <h4 className="about-me-h4">
-            I’m Aira, a UI/UX Designer from the heart of Metro Manila.
+            I’m Aira, a UI/UX Designer | Front-end Developer from the heart of
+            Metro Manila.
           </h4>
           <p className="about-me-p-desc">
             I’ve spent the past 5+ years working across different areas of
             design: front-end development, email design and some software web
-            designs. But I've been really into designing since I was a teen. Im
-            a graduate of a Bachelor of Computer Science in 2022 but started
-            working since I was in my 2nd year college.
+            designs. But I've been really into designing and front-end
+            development since I was a teen. Im a graduate of a Bachelor of
+            Computer Science in 2022 but started working since I was in my 2nd
+            year college.
           </p>
           <p className="about-me-p-desc">
             These days, I spent my time improving myself. I try to learn more

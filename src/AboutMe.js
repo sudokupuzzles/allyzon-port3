@@ -99,11 +99,11 @@ function AboutMe() {
         </div>
         <div class="about-me-col2">
           <div>
-            I’m a UI/UX Designer who loves making digital stuff. Whether it’s a
-            sleek app or a fun website, I’m all about creating designs that feel
-            natural and look great. I’m a big fan of simplicity and believe that
-            the best user experiences are the ones you don’t have to think twice
-            about.
+            I’m a UI/UX Designer | Front-end Developer who loves making digital
+            stuff. Whether it’s a sleek app or a fun website, I’m all about
+            creating designs that feel natural and look great. I’m a big fan of
+            simplicity and believe that the best user experiences are the ones
+            you don’t have to think twice about.
             <br />
             <br />
             With every project, I dive deep into understanding the user’s needs
