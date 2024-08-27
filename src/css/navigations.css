@@ -16,7 +16,6 @@
 
 .joined-events {
   padding: 10px;
-  background-color: aquamarine;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   border-radius: 15px;
@@ -64,7 +63,6 @@
   padding: 10px;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-  background-color: bisque;
   border-radius: 15px;
   background-color: #f9bbbc;
   display: flex;
@@ -87,7 +85,7 @@
   padding: 10px;
   grid-column: 3/4;
   grid-row: 2 / 3;
-  background-color: #cae6d0;
+  background-color: #9ad2a9;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -98,7 +96,7 @@
   padding: 10px;
   grid-column: 4 / 5;
   grid-row: 2 / 3;
-  background-color: #fcd9d9;
+  background-color: #f9bbbc;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
