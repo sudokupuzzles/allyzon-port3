@@ -141,6 +141,51 @@ function Projects() {
               alt="desc"
             />
           </Link>
+
+          <Link class="project-white link" to="/project7">
+            <div class="project-title">
+              Landing Pages, Logo, Badge, Banner, Email Design
+            </div>
+            <img
+              src="../imgs/green-arrow-project-icon.svg"
+              class="arrow-project-icon"
+              alt="desc"
+            />
+            <hr />
+            <div class="project-description">
+              Featuring landing pages, logos, email designs, badges, and
+              banners, this portfolio highlights my skill in crafting clean,
+              engaging visuals.
+            </div>
+            <img
+              src="../projects/SVG - Email Design.svg"
+              class="project-img"
+              alt="desc"
+            />
+          </Link>
+
+          <Link class="project-pink link" to="/project8">
+            <div class="project-title">
+              AI Animal Bio
+              <br /> Generator
+            </div>
+            <img
+              src="../imgs/arrow-project-icon.svg"
+              class="arrow-project-icon"
+              alt="desc"
+            />
+            <hr />
+            <div class="project-description">
+              AI will take the information provided and generate the bio/animal
+              story, which will be populated into the original text field (New
+              Feature)
+            </div>
+            <img
+              src="../projects/SVG-AI Animal BIO.svg"
+              class="project-img"
+              alt="desc"
+            />
+          </Link>
         </div>
       </section>
     </>

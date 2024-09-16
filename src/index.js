@@ -33,6 +33,8 @@ import Project4 from "./js-projects/Project4";
 import Project3 from "./js-projects/Project3";
 import Project5 from "./js-projects/Project5";
 import Project6 from "./js-projects/Project6";
+import Project7 from "./js-projects/Project7";
+import Project8 from "./js-projects/Project8";
 
 //then this is for linking pages
 const router = createBrowserRouter([
@@ -97,6 +99,14 @@ const router = createBrowserRouter([
     path: "project6",
     element: <Project6 />,
   },
+  {
+    path: "project7",
+    element: <Project7 />,
+  },
+  {
+    path: "project8",
+    element: <Project8 />,
+  },
 
   //routes for the Main Projects page
   {
@@ -122,6 +132,14 @@ const router = createBrowserRouter([
   {
     path: "project66",
     element: <Project6 />,
+  },
+  {
+    path: "project77",
+    element: <Project7 />,
+  },
+  {
+    path: "project88",
+    element: <Project8 />,
   },
 ]);
 
